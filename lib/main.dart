@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
 
       home: Categories(),
       routes: {
-        '/meals':(ctx) => Meals(),
+        '/meals':(_) => Meals(),
       },
     );
   }

@@ -27,7 +27,7 @@ class CgItem extends StatelessWidget {
         decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                color.withOpacity(0.5),
+                color.withOpacity(0.7),
                 color,
               ],
               begin: Alignment.topLeft,

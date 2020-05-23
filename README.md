@@ -1,6 +1,6 @@
 # mealsapp
 
-A new Flutter application.
+Committed to GitHub.
 
 ## Getting Started
 

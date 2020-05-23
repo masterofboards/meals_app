@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:mealsapp/categories.dart';
 
-import './model.dart';
+import './cg_model.dart';
 
 const DummyCategories = const [
   Model(
