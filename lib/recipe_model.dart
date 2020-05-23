@@ -41,6 +41,7 @@ class Recipes {
     @required this.isGlutenFree,
     @required this.isVegan,
     @required this.isVegetarian,
-    @required this.isLactoseFree})
+    @required this.isLactoseFree,
+  });
 
 }
