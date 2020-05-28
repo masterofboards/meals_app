@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mealsapp/meals.dart';
+import './meals.dart';
 
 class CgItem extends StatelessWidget {
 
@@ -9,8 +9,8 @@ class CgItem extends StatelessWidget {
 
   CgItem({this.id, this.title, this.color});
 
-  void selectCategory(BuildContext ctx){
-    Navigator.of(ctx).pushNamed('/meals', arguments: {
+  void goToRpItem(BuildContext ctx){
+    Navigator.of(ctx).pushNamed(Meals.routeName, arguments: {
       'cgId': id,
       'cgTitle': title,
     });
@@ -20,7 +20,7 @@ class CgItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       borderRadius: BorderRadius.circular(15),
-      onTap: () => selectCategory(context),
+      onTap: () => goToRpItem(context),
       splashColor: Theme.of(context).primaryColor,
       child: Container(
         padding: EdgeInsets.all(15),

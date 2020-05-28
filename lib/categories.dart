@@ -5,14 +5,10 @@ import './category_item.dart';
 
 class Categories extends StatelessWidget {
 
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Meals'),
-        centerTitle: true,
-      ),
-      body: Padding(
+    return Padding(
         padding: const EdgeInsets.all(10.0),
         child: GridView.builder(
           itemCount: DummyCategories.length,
@@ -30,7 +26,6 @@ class Categories extends StatelessWidget {
             );
           },
         ),
-      ),
     );
   }
 }
